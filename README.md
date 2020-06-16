@@ -42,6 +42,7 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+When a function has closure, it is able to access it lexical environment. Meaning, it can draw from outside the function for data.
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -63,9 +64,12 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+Between name and ${name}. The variable name passed on to its child function.
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
-c. What is the lexical scope of `newRoll`? 
+It will always say Dan rolled... but the value of the number would be the same.
 
+c. What is the lexical scope of `newRoll`? 
+it is function()
 ### Task 2c - Exit Ticket
 
 Once you begin, you will have 15 minutes to answer the questions [here](https://app.codesignal.com/public-test/WjSzNh9gDrD8Xn8hw/enY3yPRP3nEm7E).
